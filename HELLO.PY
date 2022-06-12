@@ -1,0 +1,2 @@
+#test python
+print('HELLO')
