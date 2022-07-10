@@ -1,4 +1,4 @@
-class juicemachine:
+class Juicemachine:
     menu_type = "JuiceOrder"
     total = 0
 
@@ -33,7 +33,7 @@ class juicemachine:
     def display_order(self):
         self.check_menu()
         self.compute_price()
-        return f'{self.customer_name}, {self.menu} ({self.num}{self.size} * ${self.price} => ${CoffeeOrder.total}'
+        return f'{self.customer_name}, {self.menu} ({self.num}{self.size} * ${self.price} => ${Juicemachine.total}'
 
     def __del__(self):
         print("Object was destroyed")
